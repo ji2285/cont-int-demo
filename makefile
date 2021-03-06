@@ -1,5 +1,2 @@
-  all: main.c 
-   	  gcc -g -Wall -o abc main.c
-
-  clean: 
-  	  $(RM) abc
+all: main.c
+  gcc -g -Wall -o abc main.c
